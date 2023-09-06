@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Financeiro GeloGuard</title>
+    <link rel="stylesheet" href="Simulador.css">
+
+
+</head class = "titulo">
+<body class="body">
+  <h1 class = "titulo">Simulador Financeiro GeloGuard</h1>  
+
+  <p>Valor Inicial</p>
+  <input class="input" type="number" id="input_inicial">
+
+  <p >Taxa de Juros</p>
+  <input class="input" type="number" id="input_taxa">
+
+  <p>Período (em anos)</p>
+  <input class="input"  type="number" id="input_periodo">
+ 
+  <button onclick="Calcular()">Calcular ROI</button>
+
+<div class="div" id="div_Calcular"></div>
+
+</body>
+</html>
+<script>
+
+function Calcular(){
+
+var Valor = Number(input_inicial.value);
+var Juros = Number(input_taxa.value)/100;
+var periodo = Number(input_periodo.value);
+var final = Number(Valor * Juros * periodo);
+div_Calcular.innerHTML =
+
+ `O retorno do Investimento será de R$${final}`
+
+
+}
+
+</script>
