@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>CALCULO DE SONO </title>
+</head>
+<body>
+    <h1> Calcular Seu Sono </h1>
+
+<span> Digite o número de horas dormidas:</span>;
+      <input type="number" id="input_horas_dormidas">;
+
+<button onclick=" Calcular_sono() ">
+    Calcular Sono
+</button>
+
+<div id="Ler_sono">
+
+
+</div>
+
+
+
+</body>
+</html>
+
+<script>
+
+function Calcular_sono(){
+
+
+var Horasdormidas = Number(input_horas_dormidas.value);
+
+var fase1 = Number(input_horas_dormidas.value * 0.05);
+
+var fase2 = Number(input_horas_dormidas.value * 0.45);
+
+var fase3 = Number(input_horas_dormidas.value * 0.30);
+
+var faseREM = Number(input_horas_dormidas.value * 0.20); 
+
+Ler_sono.innerHTML;
+
+(` Ao dormir ${Horasdormidas} horas, você dormiu:
+    ${fase1} horas na fase 1
+    ${fase2} horas na fase 2
+    ${fase3} horas na fase 3
+    ${faseREM} horas na fase REM
+    `)
+
+}
+
+</script>
