@@ -1,0 +1,36 @@
+.div_pai {
+    background-color: #c90c45;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.div_filha {
+    background-color: #ec0b0b;
+    width: 350px;
+    height: 250px;
+    border-radius: 100px;
+}
+
+.paragrafo {
+    color: rgb(8, 1, 1);
+    background-color: rgb(212, 248, 5);
+    font-size: 36px;
+    font: monospace;
+    box-shadow: 10px 5px 5px;
+    border-radius: 11px;
+}
+
+.div_mae {
+    width: 55%;
+    height: 55vw;
+    background-color: rgb(121, 12, 88);
+    border-radius: 150px;
+}
+
+.div_filho2 {
+    height: 25%;
+width: 100vw;
+background-color: rgb(224, 73, 3);
+border-radius: 30px;
+}
